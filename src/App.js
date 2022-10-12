@@ -1,23 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import Card from './Card.jsx';
+import Result from './Result.js'
+import { useState } from 'react';
 
 function App() {
+  const [rate, setRate] = useState(null)
+  const [rated, setRated] = useState(false)
+  function submit() {
+    if (rate !== null) {
+      setRated(true)
+    }
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {!rated && <Card rate={setRate} submit={submit} card={setRate} />}
+      {rated && <Result rate={rate} />}
+
     </div>
   );
 }

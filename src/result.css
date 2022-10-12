@@ -1,0 +1,38 @@
+.result {
+    width: 412px;
+    height: 416px;
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.res {
+    width: 340px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Overpass', sans-serif;
+}
+
+.selected {
+    color: #FC7614;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.res h2 {
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.res p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #969FAD;
+
+}

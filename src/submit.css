@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+.submit {
+    margin-top: 32px;
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FC7614;
+    border-radius: 22.5px;
+    color: white;
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.submit:hover {
+    background-color: white;
+    color: #FC7614;
+}

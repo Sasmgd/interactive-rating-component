@@ -1,0 +1,28 @@
+.number {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.num {
+    width: 51px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #262E38;
+    border-radius: 50%;
+    font-weight: 700;
+    font-size: 16px;
+    color: #7C8798;
+}
+
+.num:hover {
+    background: #FC7614;
+    color: white;
+}
+#active{
+    background-color: #7C8798;
+    color: white;
+}
